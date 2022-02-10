@@ -16,7 +16,7 @@
 	<update id='updateUser'>
 		update users
 		set user_name = #{userName}, birthday = #{birthday}
-		where user_id = #{uesrId}
+		where user_id = #{userId}
 	</update>
 	
 	<delete id='deleteUser'>
